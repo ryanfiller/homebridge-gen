@@ -1,0 +1,14 @@
+{
+  "name": "homebridge-gen",
+  "version": "1.0.0",
+  "description": "a generator for .homebridge/config.json files with secure environment variables",
+  "main": "index.js",
+  "scripts": {
+    "homebridge": "node generate.js"
+  },
+  "keywords": [
+    "homebridge"
+  ],
+  "author": "ryan filler",
+  "license": "ISC"
+}
