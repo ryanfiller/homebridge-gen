@@ -19,9 +19,10 @@ Access those variables in your `config.js` file, ex:
 },
 ```
 
-Run `npm run homebridge-gen` from the `homebridge-gen` to generate a `config.json` file one directory up, which should be `./homebridge`.
+Run `npm run homebridge-gen` from `~/.homebridge/homebridge-gen` to generate a `config.json` file one directory up, which should be `~/.homebridge`.
 
-Run `npm run homebridge` to generate this file and start the homebridge server. Dependencies for homebridge are not manged through this script at all, follow the normal documentation process [here](https://www.npmjs.com/package/homebridge#installing-plugins).
+Run `npm run homebridge` to generate the config file and start the homebridge server. Dependencies for homebridge are not manged through this script at all, follow the normal documentation process [here](https://www.npmjs.com/package/homebridge#installing-plugins).
 
 `config.json` and `variables.js` are both included in `.gitignore`.
-PLEASE DO NOT COMMIT YOUR USER NAMES, PASSWORDS, OR API KEYS TO GIT.
+
+**PLEASE DO NOT COMMIT YOUR USER NAMES, PASSWORDS, OR API KEYS TO GIT.**
