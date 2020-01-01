@@ -1,5 +1,5 @@
 // put any sensitive stuff you don't want on github in here
-// rename this file to variables.js, it is alredy gitingore'd
+// rename this file to variables.js, it is already gitingore'd
 
 const variables = {
   WeMo: {

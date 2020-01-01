@@ -4,7 +4,8 @@
   "description": "a generator for .homebridge/config.json files with secure environment variables",
   "main": "index.js",
   "scripts": {
-    "homebridge": "node generate.js"
+    "homebridge-gen": "node generate.js",
+    "homebridge": "homebridge-gen && homebridge"
   },
   "keywords": [
     "homebridge"
